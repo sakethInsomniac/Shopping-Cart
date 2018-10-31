@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Helps user to register" />
+  <meta name="keywords" content="HTML, Form, tags" />
+  <meta name="author" content="Lakshmi Saketh"  />
+  <title>User Registraton</title>
+</head>
+
+<script type="text/javascript" src="Scripts/register.js" ></script>
+<body>
+<h1>Register in Buyonline</h1>
+<p> Please fill the below form to complete your registration</p>
+<form>
+	
+	
+	<fieldset>
+		<legend>User Registration</legend>
+		<table>
+		<tr><td><label for="firstname">Firstname</label> </td>
+			<td><input type="text" name= "firstname" id="firstname" maxlength="20" size="30" required="required"/></td>
+		</tr>
+		<tr/>
+		<tr><td><label for="surname">Surname</label> </td>
+			<td><input type="text" name= "surname" id="surname" maxlength="20" size="30" required="required"/></td>
+		</tr>
+		<tr/>
+		<tr><td><label for="password">Password</label> </td>
+			<td><input type="password" name= "password" id="password" maxlength="50" size="30" required="required"/></td>
+		</tr>
+		<tr/>
+		<tr><td><label for="cpassword">ConfirmPassword</label> </td>
+			<td><input type="password" name= "cpassword" id="cpassword" maxlength="50" size="30" required="required"/></td>
+		</tr>
+		<tr/>
+		<tr>
+		<td>
+		<label for="email">Email</label> </td>
+			<td><input type="text" name= "email" id="email" maxlength="100" size="30" required="required"/></td>
+		</tr>
+		<tr/>
+		<tr/>
+		<tr><td><label for="phone">Phone</label> </td>
+			<td><input type="text" name= "phone" id="phone" maxlength="100" size="30" required="required"/></td>
+		</tr>
+		<tr/>
+		</table>
+	</fieldset>
+	  
+	<input type= "button" value="Register" onclick="register();" />
+	<div id="statusxhr"></div>
+	
+</form>
+</body>
+</html>
